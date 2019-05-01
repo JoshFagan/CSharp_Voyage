@@ -10,7 +10,7 @@ namespace Algorithms
         }
 
         /// <summary>
-        ///     Tests Insertion Sort of array of three different types. 
+        ///     Tests Insertion Sort of array of three different types.
         /// </summary>
         static void TestInsertionSort()
         {

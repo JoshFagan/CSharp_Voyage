@@ -32,7 +32,7 @@ namespace Algorithms
                 {
                     if (list[j].CompareTo(list[j - 1]) == -1)
                     {
-                        Switch(list, j, j - 1);
+                        Swap(list, j, j - 1);
                     }
                     else
                     {
@@ -55,7 +55,7 @@ namespace Algorithms
         ///         <c>index2</c> is the index of the second value to be switched.
         ///     </param>
         /// </summary>
-        private static void Switch(IList<T> list, int index1, int index2)
+        private static void Swap(IList<T> list, int index1, int index2)
         {
             T temp = list[index1];
             list[index1] = list[index2];
